@@ -12,3 +12,36 @@ html {
 body {
   min-height: 100%;
 }
+
+header {
+  width: 100%;
+}
+header h1 {
+  height: 80px;
+  width: 100%;
+  background-color: #FFE1D9;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 80px;
+  text-align: center;
+  vertical-align: middle;
+}
+nav {
+  height: 80px;
+  width: 100%;
+  background-color: #FF7C7C;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  padding-right: 50px;
+}
+nav ul li:last-child {
+  padding-right: 0px
+}
