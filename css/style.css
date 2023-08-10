@@ -45,3 +45,33 @@ nav ul li {
 nav ul li:last-child {
   padding-right: 0px
 }
+
+.container {
+  display: flex;
+}
+article {
+  width: 80%;
+}
+aside {
+  width: 20%;
+}
+section {
+  width: 100%;
+}
+#base {
+  position: relative;
+}
+#base img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 400px;
+  min-height: 250px;
+}
+#base h2 {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 10px 20px;
+  position: absolute;
+  left: 10%;
+  top: 160px;
+}
