@@ -76,3 +76,15 @@ section {
   left: 10%;
   top: 160px;
 }
+#base ul {
+  width: 480px;
+  margin: 40px auto 0px auto;
+  padding: 20px 10px;
+  background-color: #FFD99B;
+  border: 2px dotted #E85454;
+}
+#base ul li {
+  width: 300px;
+  padding: 10px;
+  margin: 0px auto;
+}
