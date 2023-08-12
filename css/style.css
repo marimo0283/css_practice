@@ -100,3 +100,36 @@ section {
   text-align: center;
   margin-bottom: 60px;
 }
+.secTtl {
+  width: 100%;
+  margin: 0 0 50px 0;
+  padding: 20px 0;
+  background-color: #FF7C7C;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+#skill table {
+  margin: 0 auto 50px auto;
+  border: solid 1px #DABDBD;
+}
+#skill table th {
+  background-color: #FCEEEE;
+  border-right: solid 1px #ECECEC;
+  border-bottom: solid 1px #E7D4D4;
+  text-align: center;
+  padding:  10px 0px;
+  width: 140px;
+}
+#skill table th:last-child {
+  border-right: none;
+}
+#skill table td {
+  text-align: center;
+  border-right: solid 1px #ECECEC;
+  padding: 10px 0;
+}
+#skill table td:last-child {
+  border-right: none;
+}
