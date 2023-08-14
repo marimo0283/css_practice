@@ -78,7 +78,7 @@ section {
 }
 #base ul {
   width: 480px;
-  margin: 40px auto 0px auto;
+  margin: 40px auto 0 auto;
   padding: 20px 10px;
   background-color: #FFD99B;
   border: 2px dotted #E85454;
@@ -119,7 +119,7 @@ section {
   border-right: solid 1px #ECECEC;
   border-bottom: solid 1px #E7D4D4;
   text-align: center;
-  padding:  10px 0px;
+  padding:  10px 0;
   width: 140px;
 }
 #skill table th:last-child {
@@ -133,3 +133,31 @@ section {
 #skill table td:last-child {
   border-right: none;
 }
+#hobby ol {
+  margin: 0 auto 50px;
+  padding: 20px;
+  width: 400px;
+  border: solid 1px #FF7C7C;
+  list-style-type: decimal;
+}
+#hobby ol li {
+  margin-left: 2em;
+}
+#pr p {
+  margin: 0 auto 50px;
+  padding: 20px;
+  width: 630px;
+  text-align: center;
+  background-color: #FFF2F2;
+   letter-spacing: -0.02em;
+   font-weight: 500;
+}
+ #pr p span {
+   display: inline-block;
+   font-size: 20px;
+   font-weight: bold;
+   color: #C94040;
+   margin-bottom: 20px;
+   padding-bottom: 12px;
+   border-bottom: dotted 1px #9C2727;
+ }
