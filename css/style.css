@@ -161,3 +161,31 @@ section {
    padding-bottom: 12px;
    border-bottom: dotted 1px #9C2727;
  }
+ aside {
+   background-color: #AED4D5;
+   padding: 20px;
+ }
+ .linklist {
+   background-color: #fff;
+   padding: 20px;
+ }
+ .favorite, .sns {
+   padding: 10px 30px 10px 24px;
+   font-size: 20px;
+   font-weight: bold;
+ }
+ .favorite {
+   border-left: solid 6px #FF7C7C;
+ }
+ .sns {
+   border-left: solid 6px #85D3D6;
+ }
+ .linklist {
+   padding: 30px 0 0 20px;
+ }
+ .linklist ul li {
+   padding: 0 0 20px 0;
+ }
+ .linklist ul li a {
+   text-decoration: underline;
+ }
