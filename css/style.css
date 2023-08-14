@@ -149,8 +149,8 @@ section {
   width: 630px;
   text-align: center;
   background-color: #FFF2F2;
-   letter-spacing: -0.02em;
-   font-weight: 500;
+  letter-spacing: -0.02em;
+  font-weight: 500;
 }
  #pr p span {
    display: inline-block;
@@ -188,4 +188,11 @@ section {
  }
  .linklist ul li a {
    text-decoration: underline;
+ }
+ footer {
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding: 20px;
  }
